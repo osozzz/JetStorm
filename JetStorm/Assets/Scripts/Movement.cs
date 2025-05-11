@@ -41,10 +41,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            if (audioSource.isPlaying)
-            {
-                audioSource.Stop();
-            }
+            audioSource.Stop();
         }
     }
 
